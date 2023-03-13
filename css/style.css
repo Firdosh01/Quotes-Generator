@@ -48,3 +48,12 @@ body{
     float: right;
     position: relative;
 }
+.quote-container span::before{
+    content:  '';
+    width: 20px;
+    height: 2px;
+    background-color: rgba(23,124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
