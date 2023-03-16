@@ -6,6 +6,8 @@
 }
 body{
     background-color:  #bbc6fa;
+    margin: 0 auto;
+    padding-inline: 10px;
 }
 .quote-container{
     background-color:  #fff;
@@ -30,7 +32,7 @@ body{
     border-radius: 3px;
     background-color: rgba(23,124, 229);
     position: absolute;
-    bottom: 195px;
+    bottom: 230px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -56,4 +58,19 @@ body{
     position: absolute;
     top: 50%;
     left: -30px;
+}
+
+.quote-container .btns{
+    width: 100%;
+    margin-top: 50px;
+}
+.quote-container button{
+    background-color: rgba(23,124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
 }
